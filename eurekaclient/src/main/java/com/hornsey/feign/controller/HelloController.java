@@ -1,4 +1,4 @@
-package com.hornsey.controller;
+package com.hornsey.feign.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;

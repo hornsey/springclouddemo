@@ -14,8 +14,9 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
-#  server:
+#      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://127.0.0.1:8100/eureka/,http://127.0.0.1:8200/eureka/,http://127.0.0.1:8300/eureka/
+      #  server:
 #    peer-node-read-timeout-ms: 3000
 #    enable-self-preservation: false  # 是否开启自我保护
 #  instance:
