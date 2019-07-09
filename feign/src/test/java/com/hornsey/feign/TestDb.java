@@ -1,6 +1,6 @@
-package com.hornsey;
+package com.hornsey.feign;
 
-import com.hornsey.service.ApiService;
+import com.hornsey.feign.service.ApiService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

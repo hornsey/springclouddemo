@@ -1,4 +1,4 @@
-package com.hornsey;
+package com.hornsey.feign;
 
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.boot.SpringBootConfiguration;

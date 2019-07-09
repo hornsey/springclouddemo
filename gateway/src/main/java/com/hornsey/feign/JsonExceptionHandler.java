@@ -1,4 +1,4 @@
-package com.hornsey;
+package com.hornsey.feign;
 
 import org.springframework.boot.autoconfigure.web.ErrorProperties;
 import org.springframework.boot.autoconfigure.web.ResourceProperties;
