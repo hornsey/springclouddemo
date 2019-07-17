@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: eurekaclient8768
+    name: eurekaclient8767
 
 management:
   endpoints:
