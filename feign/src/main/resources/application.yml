@@ -11,3 +11,9 @@ spring:
 feign:
   hystrix:
     enabled: true   #开启熔断器
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
