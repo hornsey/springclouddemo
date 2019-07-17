@@ -4,20 +4,6 @@ server:
 spring:
   application:
     name: eurekaclient2
-  cloud:
-    config:
-      server:
-        git:
-          uri: git@github.com:hornsey/springclouddemo.git
-          search-paths: conf
-          username: hornsey
-          password: 123456
-      label: master
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:8100/eureka/
 
 management:
   endpoints:
