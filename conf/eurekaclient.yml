@@ -1,9 +1,9 @@
 server:
-  port: 8766
+  port: 8768
 
 spring:
   application:
-    name: eurekaclient2
+    name: eurekaclient8768
 
 management:
   endpoints:
