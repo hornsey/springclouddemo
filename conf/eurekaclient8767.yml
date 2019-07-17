@@ -1,0 +1,12 @@
+server:
+  port: 8767
+
+spring:
+  application:
+    name: eurekaclient8767
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info
