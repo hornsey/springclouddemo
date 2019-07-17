@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: eurekaclient2
+    name: eurekaclient
   cloud:
     config:
       server:
